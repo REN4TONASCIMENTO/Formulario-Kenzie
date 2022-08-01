@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+  <form>
+    
+    <label for="nome">Nome</label>
+      <input type="texte" placeholder="Digite seu nome aqui" id="nome" required="true">
+
+    <label for="email">E-mail</label>
+      <input type="texte" placeholder="Digite seu e-mail aqui" required="true" id="email">
+      
+    <label for="descrição" >Descrição</label>
+      <textarea placeholder="Fale mais sobre você aqui" rows="5" cols="15" id="descrição"></textarea>
+      
+    <label for="modulo">Módulo</label>
+      <select id="modulo">
+        <option>Escolha seu módulo</option>
+        <option>M1</option>
+        <option>M2</option>
+        <option>M3</option>
+        <option>M4</option>
+        <option>M5</option>
+        <option>M6</option>
+      </select>
+      
+    <label for="senha">Senha</label>
+      <input type="password" placeholder="Digite sua senha aqui" id="senha" required="true">
+    
+    <label for="confirmarsenha">Confirmar senha</label> 
+      <input type="password" placeholder="Digite novamente sua senha aqui" id="confirmarsenha" required="true">
+      
+      <p>Deseja receber novidades em seu e-mail?</p>
+      
+      <label for="sim">Sim</label>
+      <input type="radio" name="recebernovidades" id="sim">
+
+      <label for="não">Não</label>
+      <input type="radio" name="recebernovidades" id="não">
+    
+    <button type="submmit">Enviar</button>
+  </form>
+</body>
+</html>
